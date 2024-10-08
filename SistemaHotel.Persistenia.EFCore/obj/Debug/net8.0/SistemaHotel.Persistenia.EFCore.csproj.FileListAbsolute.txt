@@ -1,0 +1,17 @@
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\bin\Debug\net8.0\SistemaHotel.Persistenia.EFCore.deps.json
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\bin\Debug\net8.0\SistemaHotel.Persistenia.EFCore.runtimeconfig.json
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\bin\Debug\net8.0\SistemaHotel.Persistenia.EFCore.dll
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\bin\Debug\net8.0\SistemaHotel.Persistenia.EFCore.pdb
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\bin\Debug\net8.0\SistemaHotel.Modelo.dll
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\bin\Debug\net8.0\SistemaHotel.Modelo.pdb
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\SistemaHotel.Persistenia.EFCore.csproj.AssemblyReference.cache
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\SistemaHotel.Persistenia.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\SistemaHotel.Persistenia.EFCore.AssemblyInfoInputs.cache
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\SistemaHotel.Persistenia.EFCore.AssemblyInfo.cs
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\SistemaHotel.Persistenia.EFCore.csproj.CoreCompileInputs.cache
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\SistemaH.A97D3007.Up2Date
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\SistemaHotel.Persistenia.EFCore.dll
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\refint\SistemaHotel.Persistenia.EFCore.dll
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\SistemaHotel.Persistenia.EFCore.pdb
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\SistemaHotel.Persistenia.EFCore.genruntimeconfig.cache
+C:\Área de Trabalho\Projeto_Tds\SistemaHotel.Persistenia.EFCore\obj\Debug\net8.0\ref\SistemaHotel.Persistenia.EFCore.dll
