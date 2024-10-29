@@ -13,31 +13,31 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = PWA
 build_property.RootNamespace = PWA
-build_property.ProjectDir = C:\Users\Garra pc\Desktop\AtividadesTDS-main\PWA\
+build_property.ProjectDir = C:\Users\User\Desktop\Trabalho-TDS\PWA\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Garra pc\Desktop\AtividadesTDS-main\PWA
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\Trabalho-TDS\PWA
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Garra pc/Desktop/AtividadesTDS-main/PWA/App.razor]
+[C:/Users/User/Desktop/Trabalho-TDS/PWA/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garra pc/Desktop/AtividadesTDS-main/PWA/Pages/User.razor]
+[C:/Users/User/Desktop/Trabalho-TDS/PWA/Pages/User.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garra pc/Desktop/AtividadesTDS-main/PWA/_Imports.razor]
+[C:/Users/User/Desktop/Trabalho-TDS/PWA/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garra pc/Desktop/AtividadesTDS-main/PWA/Layout/MainLayout.razor]
+[C:/Users/User/Desktop/Trabalho-TDS/PWA/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-vadtt99wva
 
-[C:/Users/Garra pc/Desktop/AtividadesTDS-main/PWA/Layout/NavMenu.razor]
+[C:/Users/User/Desktop/Trabalho-TDS/PWA/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-hfhy9eykng

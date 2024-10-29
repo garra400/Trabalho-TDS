@@ -101,6 +101,9 @@ namespace Persistence.Migrations
                     b.Property<string>("UserRG")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Password")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("UserID");
 
                     b.ToTable("Users");

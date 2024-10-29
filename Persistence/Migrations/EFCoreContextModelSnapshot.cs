@@ -97,6 +97,9 @@ namespace Persistence.Migrations
 
                     b.Property<string>("UserRG")
                         .HasColumnType("TEXT");
+                    
+                    b.Property<string>("UserRG")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("UserID");
 
