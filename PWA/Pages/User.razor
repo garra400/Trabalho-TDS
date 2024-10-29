@@ -1,0 +1,86 @@
+﻿@page "/cadastro-usuario"
+@using Solucao.Models
+@inject HttpClient Http
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h3 class="text-center mb-4">Cadastro</h3>
+
+            @if (!string.IsNullOrEmpty(mensagem))
+            {
+                <div class="alert @(sucesso ? "alert-success" : "alert-danger")" role="alert">
+                    @mensagem
+                </div>
+            }
+
+            <EditForm Model="@user" OnValidSubmit="EnviarUsuario">
+                <DataAnnotationsValidator />
+                <ValidationSummary class="text-danger" />
+
+                <div class="mb-3">
+                    <label for="userRG" class="form-label">RG:</label>
+                    <InputText id="userRG" @bind-Value="user.UserRG" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="userCPF" class="form-label">CPF:</label>
+                    <InputText id="userCPF" @bind-Value="user.UserCPF" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nome:</label>
+                    <InputText id="name" @bind-Value="user.Name" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <InputText id="email" @bind-Value="user.Email" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Telefone:</label>
+                    <InputText id="phone" @bind-Value="user.Phone" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="address" class="form-label">Endereço:</label>
+                    <InputText id="address" @bind-Value="user.Address" class="form-control" />
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    private UserModel user = new UserModel();
+    private string mensagem = string.Empty;
+    private bool sucesso = true;
+
+    private async Task EnviarUsuario()
+    {
+        try
+        {
+            var response = await Http.PostAsJsonAsync("api/users", user);
+
+            if (response.IsSuccessStatusCode)
+            {
+                mensagem = "Usuário cadastrado com sucesso!";
+                sucesso = true;
+                user = new UserModel(); // limpa o formulário
+            }
+            else
+            {
+                mensagem = "Erro ao cadastrar o usuário.";
+                sucesso = false;
+            }
+        }
+        catch (Exception ex)
+        {
+            mensagem = $"Erro na requisição: {ex.Message}";
+            sucesso = false;
+        }
+    }
+}
